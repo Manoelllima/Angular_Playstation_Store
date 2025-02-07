@@ -1,0 +1,25 @@
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex .logo {
+  width: 2rem;
+}
+
+.flex .logo img{
+  height: 2rem;;
+  width: 2rem;
+}
+
+nav a{
+  color: black;
+  font-family: "Roboto Condensed", serif;
+  padding: 0 .5rem;
+}
+
+.search input{
+  padding: .2rem .5rem;
+  max-width: 5rem;
+}
