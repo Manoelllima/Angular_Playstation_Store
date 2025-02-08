@@ -1,0 +1,23 @@
+.card{
+  height: 350px;
+  position: relative;
+}
+
+.card img{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+
+.card .info{
+  background-color: #363636;
+  color: #FFF;
+  padding: .5rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

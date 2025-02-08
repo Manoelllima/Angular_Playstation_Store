@@ -1,0 +1,19 @@
+.content{
+  padding-top: 4.5rem;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 2%;
+  margin-top: 3rem;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.flex .item_flex{
+  padding: .5rem;
+  width: calc(100% / 4);
+}
