@@ -12,7 +12,10 @@ export class CardComponent implements OnInit {
   imgUrl:string = "";
 
   @Input()
-  title:string = "";
+  titleCard:string = "";
+
+  @Input()
+  price:string = "";
 
   ngOnInit(): void {
 

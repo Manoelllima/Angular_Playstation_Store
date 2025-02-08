@@ -1,7 +1,7 @@
-import { Component, OnInit} from '@angular/core';
+import { Component, OnInit, } from '@angular/core';
 import { CardComponent } from "../../components/card/card.component";
-import { CommonModule } from '@angular/common';
 import { dataFake } from '../../data/dataFake';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-home',
@@ -10,11 +10,6 @@ import { dataFake } from '../../data/dataFake';
   styleUrl: './home.component.css'
 })
 export class HomeComponent implements OnInit {
-  ps5:object = dataFake[0];
-
-  ngOnInit(): void {
-    console.log(this.ps5);
-
-  }
-
+  gamesPs5 = dataFake[0].ps5
+  ngOnInit(): void {  }
 }

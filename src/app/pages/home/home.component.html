@@ -1,8 +1,7 @@
 <div class="content">
-  <div *NgFor="let game in this.ps5" class="flex">
-    <div class="item_flex">
-      <div>{{game.id}}</div>
-      <app-card imgUrl="" title=""></app-card>
+  <div  class="flex">
+    <div *ngFor="let game of gamesPs5" class="item_flex">
+      <a href=""><app-card  [imgUrl]="game.img" [titleCard]="game.title" [price]="game.price"></app-card></a>
     </div><!-- item_flex -->
   </div><!-- flex -->
 </div>
