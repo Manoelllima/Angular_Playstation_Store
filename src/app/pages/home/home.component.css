@@ -25,4 +25,7 @@
 }
 
 
-
+.item_flex:hover{
+  scale: 1.02;
+  transition: .5s;
+}
