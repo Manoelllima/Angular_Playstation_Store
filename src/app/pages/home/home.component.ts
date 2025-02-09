@@ -11,5 +11,9 @@ import { CommonModule } from '@angular/common';
 })
 export class HomeComponent implements OnInit {
   gamesPs5 = dataFake[0].ps5
-  ngOnInit(): void {  }
+  gamesPs4 = dataFake[0].ps4
+  ngOnInit(): void {
+    console.log(this.gamesPs4);
+
+   }
 }

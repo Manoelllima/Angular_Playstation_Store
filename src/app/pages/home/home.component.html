@@ -1,7 +1,16 @@
 <div class="content">
+
+  <h2>Jogos PS5</h2>
   <div  class="flex">
-    <div *ngFor="let game of gamesPs5" class="item_flex">
-      <a href=""><app-card  [imgUrl]="game.img" [titleCard]="game.title" [price]="game.price"></app-card></a>
+    <div *ngFor="let game of gamesPs5; index as i;" class="item_flex">
+      <a href=""  *ngIf="i < 4 ? true : false;"><app-card   [imgUrl]="game.img" [titleCard]="game.title" [price]="game.price"></app-card></a>
+    </div><!-- item_flex -->
+  </div><!-- flex -->
+
+  <h2>Jogos PS4</h2>
+  <div  class="flex">
+    <div *ngFor="let game of gamesPs4; index as i" class="item_flex">
+      <a href="" *ngIf="i < 4 ? true : false;" ><app-card  [imgUrl]="game.img" [titleCard]="game.title" [price]="game.price"></app-card></a>
     </div><!-- item_flex -->
   </div><!-- flex -->
 </div>

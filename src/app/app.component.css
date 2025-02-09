@@ -1,12 +1,13 @@
 header{
+  background-color: #FFF;
   position: fixed;
   top: 0;
   padding: 1rem 0;
   width: 100%;
-
   -webkit-box-shadow: 0px 2px 8px 0px rgba(66, 68, 90, 1);
--moz-box-shadow: 0px 2px 8px 0px rgba(66, 68, 90, 1);
-box-shadow: 0px 2px 8px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 2px 8px 0px rgba(66, 68, 90, 1);
+  box-shadow: 0px 2px 8px 0px rgba(66, 68, 90, 1);
+  z-index: 10;
 }
 
 header .center{
